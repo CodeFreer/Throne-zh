@@ -25,7 +25,7 @@ Direct: %2</source>
         <source>Create new subscription group</source>
         <translation>创建新的订阅分组</translation>
     </message>
-	<message>
+    <message>
         <source>Import HTTP proxy profile</source>
         <translation>导入 HTTP 代理配置档</translation>
     </message>
@@ -184,10 +184,6 @@ Release note:
         <source>Inbound Password</source>
         <translation>入站密码</translation>
     </message>
-	<message>
-        <source>Disable Mixed Inbound</source>
-        <translation>禁用混合入站</translation>
-    </message>
     <message>
         <source>concurrency</source>
         <translation>并发</translation>
@@ -272,10 +268,6 @@ Release note:
         <source>Multiplex (mux)</source>
         <translation>多路复用(Mux)</translation>
     </message>
-	<message>
-        <source>Padding</source>
-        <translation>填充</translation>
-    </message>
     <message>
         <source>Latency Test URL</source>
         <translation>延迟测试 URL</translation>
@@ -291,10 +283,6 @@ Release note:
     <message>
         <source>Max log lines</source>
         <translation>最多日志行数</translation>
-    </message>
-    <message>
-        <source>Auto-scroll log</source>
-        <translation>自动滚动日志</translation>
     </message>
     <message>
         <source>Sing-box Log level</source>
@@ -321,7 +309,7 @@ Release note:
         <translation>启用「包含」规则</translation>
     </message>
     <message>
-        <source>Enable Exclude Rules</source>
+        <source>Enable Exclude Rulesg</source>
         <translation>启用「排除」规则</translation>
     </message>
     <message>
@@ -383,6 +371,38 @@ Release note:
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A DNS server for local use will be deployed on this port&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;用于本地使用的 DNS 服务器将部署在这个端口上&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+	<message>
+        <source>TLS Fragment</source>
+        <translation>TLS 分段</translation>
+    </message>
+	<message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;使用何种 TLS 分段实现配置档： built-in (sing-box tls.fragment) 或 custom (Hiddify 拨号器级别 ClientHello 分段).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+	<message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Custom implementation only: bytes per ClientHello fragment, as a range min-max (e.g. 10-100).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;仅适用于 Custom （自定义）实现：每 ClientHello 片段的字节数，采用最小-最大取值范围形式（如 10-100）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+	<message>
+        <source>Sleep</source>
+        <translation>睡眠</translation>
+    </message>
+	<message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Custom implementation only: milliseconds to sleep between fragment bursts, as a range min-max (e.g. 2-5).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;仅适用于 Custom （自定义）实现：片段突发间的睡眠时间，以毫秒计算，采用最小-最大取值范围形式（如 2-5）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+	<message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable mixed-case SNI for profiles whose TLS Tricks setting is left on &amp;quot;Keep Default&amp;quot;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;对于其 TLS Tricks （TLS 伪装）设置保留为 &amp;quot;Keep Default&amp;quot;（保持默认）的配置档启用混合大小写的 SNI。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+	<message>
+        <source>TLS Tricks Default On</source>
+        <translation>TLS Tricks 默认开启</translation>
     </message>
     <message>
         <source>NTP Settings</source>
@@ -502,50 +522,6 @@ Release note:
         <source>Xray VLESS Preference</source>
         <translation>Xray VLESS 首选项</translation>
     </message>
-		<message>
-        <source>Backup and Restore</source>
-        <translation>备份和恢复</translation>
-    </message>
-	<message>
-        <source>Create Backup</source>
-        <translation>创建备份</translation>
-    </message>
-	<message>
-        <source>Create a portable backup file. Choose which parts to include:</source>
-        <translation>创建一个便携式备份文件。选择要包含哪些部分:</translation>
-    </message>
-	<message>
-        <source>Profiles (groups and proxies)</source>
-        <translation>配置档(分组和代理)</translation>
-    </message>
-	<message>
-        <source>Routing profiles</source>
-        <translation>路由配置档</translation>
-    </message>
-	<message>
-        <source>Settings</source>
-        <translation>设置</translation>
-    </message>
-	<message>
-        <source>Custom icons</source>
-        <translation>自定义图标</translation>
-    </message>
-	<message>
-        <source>Create Backup...</source>
-        <translation>创建备份...</translation>
-    </message>
-	<message>
-        <source>Restore Backup</source>
-        <translation>恢复备份</translation>
-    </message>
-	<message>
-        <source>Restore from a backup file. You can choose which parts to restore; each selected part replaces the current data. The application restarts after restore.</source>
-        <translation>从备份文件中恢复。你可以选择要恢复哪些部分；每个选定的部分都会替换当前数据。在恢复后应用程序重启。</translation>
-    </message>
-	<message>
-        <source>Restore from Backup...</source>
-        <translation>从备份恢复...</translation>
-    </message>
     <message>
         <source>Disable Privilege request</source>
         <translation>禁止权限请求</translation>
@@ -581,10 +557,6 @@ Release note:
     <message>
         <source>Allow updating to beta versions</source>
         <translation>允许更新到 beta 版</translation>
-    </message>
-	<message>
-        <source>Restart Proxy On System Proxy Disable</source>
-        <translation>在系统代理禁用时重启代理</translation>
     </message>
     <message>
         <source>Network Settings</source>
@@ -740,10 +712,6 @@ Release note:
         <source>Name</source>
         <translation>名称</translation>
     </message>
-	<message>
-        <source>Advanced Settings</source>
-        <translation>高级设置</translation>
-    </message>
     <message>
         <source>Network</source>
         <translation>传输(网络)</translation>
@@ -767,6 +735,10 @@ Release note:
     <message>
         <source>Brutal Upload Speed</source>
         <translation>强暴上传速度</translation>
+    </message>
+    <message>
+        <source>Advanced Settings</source>
+        <translation>高级设置</translation>
     </message>
     <message>
         <source>Network Settings (%1)</source>
@@ -1077,19 +1049,19 @@ Release note:
         <source>Sniffing Mode</source>
         <translation>嗅探模式(流量探测)</translation>
     </message>
-	<message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If not empty, resolves domains in requests according to the strategy&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果非空，根据策略解析请求中的域&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-	<message>
+    <message>
         <source>Resolve Domain Strategy</source>
         <translation>解析域策略</translation>
     </message>
-	<message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Used as default strategy when resolving outbound/dns server Domain addresses&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;当解析出站/DNS 服务器域地址时，作为默认策略使用&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-	<message>
+    <message>
         <source>Default Domain Strategy</source>
         <translation>默认域策略</translation>
     </message>
@@ -1193,11 +1165,11 @@ For more information, see the document &quot;Configuration/DNS&quot;.</source>
         <source>Enable FakeIP</source>
         <translation>启用 FakeIP</translation>
     </message>
-	<message>
+    <message>
         <source>Enable DNS Routing</source>
         <translation>启用 DNS 路由</translation>
     </message>
-	<message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, domains destined for direct outbound will also be resolved using direct dns&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;启用时，目标为直接出站的域也将使用直接 DNS 进行解析&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1233,7 +1205,7 @@ For more information, see the document &quot;Configuration/DNS&quot;.</source>
         <source>Rules</source>
         <translation>规则</translation>
     </message>
-	<message>
+    <message>
         <source>Rule Settings</source>
         <translation>规则设置</translation>
     </message>
@@ -1256,6 +1228,10 @@ For more information, see the document &quot;Configuration/DNS&quot;.</source>
     <message>
         <source>Export</source>
         <translation>导出</translation>
+    </message>
+	<message>
+        <source>Import</source>
+        <translation>导入</translation>
     </message>
     <message>
         <source>Invalid state</source>
@@ -1332,6 +1308,22 @@ For more information, see the document &quot;Configuration/DNS&quot;.</source>
     <message>
         <source>Local Override</source>
         <translation>本地覆盖</translation>
+    </message>
+	<message>
+        <source>Disable Cache</source>
+        <translation>禁用缓存</translation>
+    </message>
+	<message>
+        <source>Disable Expire</source>
+        <translation>禁用有效期</translation>
+    </message>
+	<message>
+        <source>Reverse Mapping</source>
+        <translation>反向映射</translation>
+    </message>
+	<message>
+        <source>Cache Capacity</source>
+        <translation>缓存容量</translation>
     </message>
 </context>
 <context>
@@ -1420,18 +1412,6 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
     <message>
         <source>Connect Timeout</source>
         <translation>连接超时</translation>
-    </message>
-	<message>
-        <source>Bind Interface</source>
-        <translation>绑定接口</translation>
-    </message>
-	<message>
-        <source>IPv4 Bind Address</source>
-        <translation>IPv4 绑定地址</translation>
-    </message>
-	<message>
-        <source>IPv6 Bind Address</source>
-        <translation>IPv6 绑定地址</translation>
     </message>
     <message>
         <source>TCP Fast Open</source>
@@ -2174,6 +2154,10 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
         <source>System Proxy</source>
         <translation>系统代理</translation>
     </message>
+	<message>
+        <source>Select Routing</source>
+        <translation>选择路由</translation>
+    </message>
     <message>
         <source>Share</source>
         <translation>分享</translation>
@@ -2214,7 +2198,7 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
         <source>Copy Link</source>
         <translation>复制链接</translation>
     </message>
-	<message>
+    <message>
         <source>Copy Test Result</source>
         <translation>复制测试结果</translation>
     </message>
@@ -2222,11 +2206,19 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
         <source>Clear Test Result</source>
         <translation>清理测试结果</translation>
     </message>
+	<message>
+        <source>Traffic Stats</source>
+        <translation>流量统计</translation>
+    </message>
+	<message>
+        <source>Check For Update</source>
+        <translation>检查更新</translation>
+    </message>
     <message>
         <source>Export Sing-box config</source>
         <translation>导出 Sing-box 配置</translation>
     </message>
-	  <message>
+    <message>
         <source>Disable</source>
         <translation>禁用</translation>
     </message>
@@ -2362,31 +2354,31 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
         <source>Tun Mode</source>
         <translation>Tun 模式</translation>
     </message>
-	<message>
+    <message>
         <source>Enable AdBlock</source>
         <translation>启用广告屏蔽</translation>
     </message>
-	<message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables the following config to be used as egress, useful for bypassing services restrciting non-warp VPNs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;启用以下配置作为出口(egress)使用，对于绕过限制非 warp VPNs 的服务很有用&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-	<message>
+    <message>
         <source>Enable Warp</source>
         <translation>启用 Warp</translation>
     </message>
-	<message>
+    <message>
         <source>Endpoint</source>
         <translation>端点</translation>
     </message>
-	<message>
+    <message>
         <source>Private Key</source>
         <translation>私钥</translation>
     </message>
-	<message>
+    <message>
         <source>Public Key</source>
         <translation>公钥</translation>
     </message>
-	<message>
+    <message>
         <source>Interface Addresses</source>
         <translation>接口地址</translation>
     </message>
@@ -2394,11 +2386,11 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
         <source>Enable System Proxy</source>
         <translation>启用系统代理</translation>
     </message>
-	<message>
+    <message>
         <source>Generate Warp Config</source>
         <translation>生成 Warp 配置</translation>
     </message>
-	<message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gets a new config from cloudflare API&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;从 cloudflare API 获取一个新配置&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -2644,7 +2636,7 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
     </message>
     <message>
         <source>Application</source>
-        <translation>应用程序</translation>
+        <translation>应用</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -2657,6 +2649,10 @@ https://matsuridayo.github.io/n-configuration/#vpn-tun</translation>
     <message>
         <source>Routing</source>
         <translation>路由</translation>
+    </message>
+	<message>
+        <source>Tools</source>
+        <translation>工具</translation>
     </message>
     <message>
         <source>Destination (Domain)</source>
