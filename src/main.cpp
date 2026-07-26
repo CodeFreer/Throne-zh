@@ -78,14 +78,14 @@ void loadTranslate(const QString& locale) {
     trans_qt = new QTranslator;
     QLocale::setDefault(QLocale(locale));
     //
-    const QString diskPath="/translations/" + locale + ".qm";
-    const QString qrcPath=":/translations/" + locale + ".qm";
+    const QString diskPath = QCoreApplication::applicationDirPath()+"/translations/" + locale + ".qm";
+    const QString qrcPath = ":/translations/" + locale + ".qm";
     bool loadOK=false;
     if (QFileInfo::exists(diskPath)) {
-        loadOK=trans->load(diskPath);
+        loadOK = trans->load(diskPath);
     }
     if (!loadOK) {
-        loadOK=trans->load(qrcPath);
+        loadOK = trans->load(qrcPath);
     }
     if (loadOK) {
         QCoreApplication::installTranslator(trans);
